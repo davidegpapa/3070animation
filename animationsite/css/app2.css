@@ -1,0 +1,251 @@
+a:link{color: black; text-decoration: none;}
+a:hover{color: white; transition: 1.2s; box-shadow: 3px 3px gray; background-color: black;}
+a:visited{color: darkgray;}
+body{
+  background-color: white;
+  animation-name: bgcolorchange;
+  animation-duration: 5s;
+  animation-delay: 45s;
+  animation-fill-mode: forwards;
+}
+#wrapper{
+  width: 1280px;
+  margin: auto;
+}
+nav{
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1.5px solid black;
+  text-align: left;
+}
+li{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+}
+a{
+  padding: 5px;
+}
+h1{
+  font-family: Baskerville, serif;
+  font-size: 1.8em;
+  font-weight: lighter;
+}
+h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+}
+.container{
+overflow: hidden;
+height: 130px;
+padding-top: 30px;
+display:inline-block;
+position: absolute;
+left: 400px;
+top: 100px;
+z-index: -1;
+}
+
+.letter{
+  display: inline-block;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3.2em;
+  font-weight: bold;
+  color: darkred;
+  position: relative;
+  z-index: 1;
+  top: 0px;
+  line-height: 120px;
+  margin-right: 10px;
+}
+.container2{
+overflow: hidden;
+height: 130px;
+padding-top: 30px;
+display:inline-block;
+position: absolute;
+left: 400px;
+top: 100px;
+z-index: -1;
+}
+.f{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 10s;
+  -webkit-animation-fill-mode: forwards;
+}
+.u{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 45s;
+  -webkit-animation-fill-mode: forwards;
+}
+.t{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 35s;
+  -webkit-animation-fill-mode: forwards;
+}
+.u{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 18s;
+  -webkit-animation-fill-mode: forwards;
+}
+.r{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 28s;
+  -webkit-animation-fill-mode: forwards;
+}
+.e{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 41s;
+  -webkit-animation-fill-mode: forwards;
+}
+.p{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 32s;
+  -webkit-animation-fill-mode: forwards;
+}
+.a{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 40s;
+  -webkit-animation-fill-mode: forwards;
+}
+.r{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 11s;
+  -webkit-animation-fill-mode: forwards;
+}
+.a{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 38s;
+  -webkit-animation-fill-mode: forwards;
+}
+.d{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 22s;
+  -webkit-animation-fill-mode: forwards;
+}
+.o{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 28s;
+  -webkit-animation-fill-mode: forwards;
+}
+.x{
+  animation-name: disappear;
+  animation-duration: 5s;
+  animation-delay: 40s;
+  -webkit-animation-fill-mode: forwards;
+}
+.d2{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 10s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+.a2{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 45s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+.v2{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 35s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+.i2{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 18s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+.d3{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 28s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+.i3{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 41s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+.s2{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 32s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+.d4{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 40s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+.e2{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 11s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+.a3{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 38s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+.d5{
+  color: black;
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-delay: 22s;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes disappear{
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes appear {
+  100% {opacity: 100;}
+}
+@keyframes bgcolorchange {
+  100% {background-color: darkred;}
+}
